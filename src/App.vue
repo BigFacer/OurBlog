@@ -79,10 +79,18 @@ export default {
   html,body{
     margin: 0;
     padding: 0;
+    width: 100%;
     height: 100%;
+    /*background-color: #000000;*/
     box-sizing: border-box;
   }
-#app {
+div,p,span,h1,h2,h3,h4,h5,h6,ul,li,table{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
